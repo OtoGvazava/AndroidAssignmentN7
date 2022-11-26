@@ -9,6 +9,5 @@ data class Users(
     val total: Int,
     @SerializedName("total_pages")
     val totalPages: Int,
-    val data: List<User>,
-    val support: Support
+    val data: List<UserData>
 )
